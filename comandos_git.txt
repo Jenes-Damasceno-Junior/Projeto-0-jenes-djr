@@ -1,3 +1,5 @@
+################# COMANDOS GIT #################
+
 1 - PROMPT DE COMANDO PARA VERIFICAR INSTALÇÃO
 git --help
 
@@ -14,13 +16,14 @@ git add "nome_do_arquivo.extensão"
 
 6 - INCLUIR VÁRIOS ARQUIVOS NO CONTROLE DE VERSÃO
 git add . (após o add é espaço, ponto e enter para executar o código)
+git status - para ver se o código rodou certo
 
-7 - CRIANDO RELAÇÃO COM O GITHUB
+7 - CRIANDO A PRIMEIRA VERSÃO
+git commit -m "comentário sobre a versão entre as aspas"
+
+8 - CRIANDO RELAÇÃO COM O GITHUB
 git config --global user.email "email@dogithub.com"
 git config --global user.name "Seu Nome"
-
-8 - CRIANDO A PRIMEIRA VERSÃO
-git commit -m "comentário sobre a versão entre as aspas"
 
 9 - ENVIANDO VERSÃO PARA SERVIDOR NA NUVEM
 NO GITHUB:
