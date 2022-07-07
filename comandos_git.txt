@@ -60,7 +60,7 @@ git reset --hard ID da versão (O ID é fornecido pelo comando git reflog (conju
 E podemos também ter outras branches auxiliares, prinicplamente quando o trabalho é feito em equipe).
 git branch - Ver Branches disponiveis
 git branch staging - Criando e nomeando como staging uma nova branch (auxiliar)
-git checkout -b nome da branch de origem nome da nova brench - permite mudar e criar uma nova branch com base em outra
+git checkout -b nome da nova brench nome da branch de origem  - permite mudar e criar uma nova branch com base em outra
 git checkout staging - muda da branch master para branch staging
 git push --set-upstream origin staging - upload da branch para nuvem
 
